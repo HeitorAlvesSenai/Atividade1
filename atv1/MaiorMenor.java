@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MaiorMenorCorrigido {
+public class MaiorMenor {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
@@ -40,8 +40,6 @@ public class MaiorMenorCorrigido {
             if (numeros[i] < Cmenor) {
                 Cmenor = numeros[i];
             }
-            // Não precisamos do 'else if' aqui, pois um número pode ser maior ou menor, 
-            // ou nenhum dos dois. As duas checagens são independentes.
         }
         
         // === RESULTADO ===
